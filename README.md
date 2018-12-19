@@ -10,7 +10,7 @@ A simple Node.js module that uses express-pino logger to expose a simple express
 
 * Download NodeJs 
 * Install Express & npm i express
-* Install Pino & npm i express-pino-logger
+* Install Pino & npm install pino
 
 ### To get the app
 * In your terminal:

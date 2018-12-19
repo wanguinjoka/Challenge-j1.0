@@ -3,12 +3,11 @@
 const express = require('express');
 const app = express();
 
-const pino = require('express-pino-logger')();
+//import logger module
+const logger= require('./logger');
+
 
 app.use(express.json());
-
-app.use(pino);
-
 
 const customers = [
   {id:1, name: 'rachel'},
@@ -19,7 +18,6 @@ const customers = [
 
 //home route displaying Welcome message
 app.get('/', function (req, res) {
-  req.log.info('something else')
   res.send('Welcome to kudobuzz challenge');
 });
 
