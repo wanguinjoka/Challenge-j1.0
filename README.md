@@ -18,6 +18,7 @@ This simple Node.js module taht uses express-pino logger to expose a simple expr
         $ git clone https://github.com/wanguinjoka/Challenge-j1.0
         $ cd Challenge-j1.0
         $ run node index.js
+        $ log to appear on terminal
        
 
 ## Testing 
