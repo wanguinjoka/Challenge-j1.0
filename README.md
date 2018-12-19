@@ -3,7 +3,7 @@
 ## Built By [Wangui Njoka](https://github.com/wanguinjoka/)
 
 ## Description
-This simple Node.js module taht uses express-pino logger to expose a simple express middleware on every requests.
+A simple Node.js module that uses express-pino logger to expose a simple express middleware on every requests.
 
 
 ## To SetUp the App Install the following Requirements;
@@ -23,4 +23,4 @@ This simple Node.js module taht uses express-pino logger to expose a simple expr
 
 ## Testing 
 * No Test yet
-* To use Mocha and chai for  running tests
+* To use Mocha and chai for  running tests in future
